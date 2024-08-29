@@ -43,15 +43,19 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Browsers can Handel all things (inspect)
   - You can Work on A single text file
   - Talk about editors and IDEs
+  - Browsers can paly a lot of different things like `HTML`, `SVG`, end etc.
   - Talk about postfix and extensions
-  - What creates a Html file
-  - Talk about tags(Basics) angle brackets <>
+  - The first version of HTML was written by `Tim Berners-Lee` in `1993`
+  - What creates a Html file (open a notepad and save as file)
+  - Talk about tags(Basics) angle brackets `<>`
+  - A tag with its closing tag is a markup element
   - Four Important basic Tags `<!Doctype html>`, `<HTML>`, `<Head>`, and `<Body>`
+  - Talk about Browser developer tools like `inspect`
   - Markup elements
   - Heading tags
   - Paragraph tag
-  - Line Break tag (Empty elements)
-  - Line tag (self clos tag)
+  - Line Break tag (Empty element)
+  - Line tag (self clos tag) is a empty element
   - Comment Tag `<!-- -->`
   - &nbsp mark for space
 
@@ -73,3 +77,56 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Link to outside tag `<a href="www.google.com">`<span style="color: Red;">Google</span>`</a>`
   - Define Attributes `href`
   - Link to inside tag `<a href="#Birds">` and `<a name=Birds>`
+
+- <span style="color: Red;">Images</span>
+
+  - Image tag `<img>`
+  - Source attribute
+  - Size Attributes
+  - Use optimize size for your images
+  - Alt Attributes
+
+- <span style="color: Red;">Nested Elements</span>
+
+  - `<html>` is root elements
+  - Child elements
+  - Parent elements
+  - Mismatch Elements
+
+- <span style="color: Red;">HTML Forms</span>
+
+  - To collect data to do something
+  - Implement a textbox element/ control (`type="text"`)
+  - Attributes are belong to CSS and JavaScript courses
+  - Change your textbox size (`size="50"`)
+  - Implement a label element
+  - Add a Multi line textbox (textarea)
+  - We can use just simple text as label
+  - Implement a submit button (`type="submit"`)
+  - Implement a Radio button (`type="radio"`)
+  - Radio's name should be the same
+  - Implement a CheckBox button (`type="checkbox"`)
+  - Use `checked="checked"` for checked a box by default
+  - Implement a Numbers field (`type="number"`)
+  - For restrict user from entering random number we need JavaScript
+  - Set `min=""` and `max=""` for your Numbers input
+  - Implement a DropDownList using `select` tag
+  - For Items we use `<option>` tag
+  - Implement a date element `type="date"`
+  - Use `<fieldset` tag to give a nice style to your page
+  - `<legend>` tag add a nice title to your fieldset
+
+- <span style="color: Red;">HTML Attributes</span>
+
+  - Differences between tags and elements
+  - A specific attribute gives extra information about a the tag
+  - Some attributes can be placed in every HTML elements tag
+  - Like `class=""` attribute
+
+- <span style="color: Red;">Meta Elements</span>
+  - Is always put inside `<head>` elements
+  - These elements give more information to search engines about your page
+  - Meta tags is self-content tags and don't need close tag
+  - Description Meta tag uses only 155 character
+  - Keywords used for demonstrate the content of page to some search engin (Except Google)
+  - Meta tags also give extra information about Author or language
