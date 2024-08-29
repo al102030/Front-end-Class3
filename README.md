@@ -100,6 +100,7 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Attributes are belong to CSS and JavaScript courses
   - Change your textbox size (`size="50"`)
   - Implement a label element
+  - `placeholder` attribute show a guid and default value inside your textbox or textarea elements
   - Add a Multi line textbox (textarea)
   - We can use just simple text as label
   - Implement a submit button (`type="submit"`)
@@ -119,14 +120,37 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
 - <span style="color: Red;">HTML Attributes</span>
 
   - Differences between tags and elements
-  - A specific attribute gives extra information about a the tag
-  - Some attributes can be placed in every HTML elements tag
-  - Like `class=""` attribute
+  - A specific attribute gives extra information about a particular element
+  - Place attributes only in opening tag
+  - Some attributes can be placed in every HTML elements tag, Like `class=""` attribute
+  - On the other hand some attributes comes with a specific element, like `for=""` attribute
 
-- <span style="color: Red;">Meta Elements</span>
+- <span style="color: Red;">Meta Tags</span>
   - Is always put inside `<head>` elements
   - These elements give more information to search engines about your page
   - Meta tags is self-content tags and don't need close tag
   - Description Meta tag uses only 155 character
   - Keywords used for demonstrate the content of page to some search engin (Except Google)
   - Meta tags also give extra information about Author or language
+- <span style="color: Red;">Special Characters</span>
+
+  - There is scape characters in HTML5
+  - ![](Images/2.png)
+
+- <span style="color: Red;">Bold and Italic style</span>
+
+  - Use `<b>` tag to make a text bold
+  - Use `<Strong>` tag to make a text bold
+  - `<strong>` tag has special uses (ex: text speech programs) but ` <b>` tag is only for styling
+  - Special features can be add to `<strong>` tag in `HTML6`
+  - Use `<i>` tag to make a text italic
+  - Use `<em>` tag to make a text bold
+  - `<em>` tag has special uses (ex: text speech programs) but ` <i>` tag is only for styling
+
+- <span style="color: Red;">Iframe Element</span>
+
+  - Use this element to embed content of another page to your page (for adverts, navigation, or images)
+
+- <span style="color: Red;">Super & Sub Script</span>
+
+  - Its about topography and placing text and symbols at the top or bottom of other text
