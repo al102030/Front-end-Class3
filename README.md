@@ -154,3 +154,61 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
 - <span style="color: Red;">Super & Sub Script</span>
 
   - Its about topography and placing text and symbols at the top or bottom of other text
+
+- <span style="color: Red;">Title and Alternative</span>
+
+  - In HTML5 we can use `title` attribute in every elements to show information about them when mouse hover over them
+  - `alt` attribute show information about absence of an element
+
+- <span style="color: Red;">Audio Tag</span>
+
+  - To place an audio in your page ypu can use `<audio>` tag
+  - It support three different format file (`.mp3, .wav, and .ogg`)
+  - It's important that you should place a `control` attribute for your audio element but you can choose arbitrary name for it
+  - For placing different format of a file we can use `<source>` tag
+  - By `autoplay` attribute you can play your file automatically
+  - By `loop` attribute you can play your file in infinite loop
+  - By `draggable="true"` attribute you can drag your player everywhere
+
+- <span style="color: Red;">Video Tag</span>
+
+  - To place an audio in your page ypu can use `<video>` tag
+  - It support two different format file (`.mp4 and .ogg`)
+  - For placing different format of a file we can use `<source>` tag
+
+- <span style="color: Red;">DOCTYPE</span>
+
+  - It's not a actual HTML tag
+  - It shows the version of HTML that we use in our document
+
+- <span style="color: Red;">Document Object Model (DOM)</span>
+
+  - It's a model that present HTML elements in our document
+  - When a web page is loaded, the browser creates a Document Object Model of the page
+  - The HTML DOM model is constructed as a tree of Objects
+  - ![](Images/3.png)
+  - Use w3 validator to check your HTML codes
+  - https://validator.w3.org/
+
+- <span style="color: Red;">HTML Semantic Elements</span>
+
+  - A semantic element clearly describes its meaning to both the browser and the developer
+  - A semantic Web allows data to be shared and reused across applications, enterprises, and communities
+  - ![](Images/4.png)
+  - ![](Images/5.png)
+
+- <span style="color: Red;">Additional HTML Tags</span>
+
+  - Use `<pre>` tag for preformatted text
+  - Use `<blockquote cite="">` tag for A section that is quoted from another source
+  - Use `<code>` tag for code snippets
+  - Use `<dl>` tag for present a description list (`<dt>`, `<dd>`)
+
+- <span style="color: Red;">Exercise</span>
+  - Section1: ![](Images/ex1.png)
+  - Section2: ![](Images/ex2.png)
+  - Section3: ![](Images/ex3.png)
+
+### <span style="color: #44cecc;">CSS</span>
+
+- <span style="color: Red;">What is the CSS?</span>
