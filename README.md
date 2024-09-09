@@ -209,6 +209,84 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Section2: ![](Images/ex2.png)
   - Section3: ![](Images/ex3.png)
 
+<br>
+<br>
+
 ### <span style="color: #44cecc;">CSS</span>
 
 - <span style="color: Red;">What is the CSS?</span>
+
+  - <span style="color: #0099ff;">CSS</span> is `Cascading Style Sheet` for describing look and formatting documents written in a markup language
+  - Adds style to your HTML
+  - By CSS you can have control on your website look without changing your HTML
+  - Talk about another HTML tag: `<style>`
+  - select a tag in your HTML document ex:`h1 {  ...  }`
+  - Each one of these style is a CSS `property`
+  - Statement of changing in CSS : `Property : value`
+
+- <span style="color: Red;">Changing font color, type, and size</span>
+
+  - Use `color`, `font-size`, and `font-family` property to change respectively color, size, and font type of your text
+  - `px` stands for `pixel`
+  - Selecting by `p` type change all paragraphs in our page
+
+- <span style="color: Red;">Multi Selecting Tags</span>
+
+  - `h1, h2 {   ....  }`
+  - By writing another selector you can change one of your multiple selected tags
+
+- <span style="color: Red;">Border Property</span>
+
+  - `border-bottom`, `border-top` ...
+  - Imply to the combine values
+
+- <span style="color: Red;">CSS Inheritance and Overriding</span>
+
+  - What you get with hierarchy is inheritance
+  - ![](Images/7.png)
+  -
+  - Child inherit their properties from their parents
+  - To change something individually you should change that in the child tag using overriding rule
+  - By define a property for a child individually an override happens and it's `overriding`
+
+- <span style="color: Red;">Using Classes</span>
+
+  - Create two paragraph with different classes (`blue`, `red`) and define classes in style tag
+  - Definition class statement : `class="class_name"`
+  - It don't need it to put class attribute closing tag and remember attribute always comes in opening tag
+  - By removing tag name before dot notation it can be apply on all tags which have a specific class attribute
+  - You can use multiple class name in your class attribute
+  - Apply it by using `text-decoration` property
+
+- <span style="color: Red;">Font Family</span>
+
+  - You can define which font apply on your text
+  - If none of those fonts don't exist in the client computer system default font apply on your text
+  - It's better to put font family property in your `body` tag
+
+- <span style="color: Red;">Font Weight Property</span>
+
+  - Use `normal`, `bold`, `bolder`, and `lighter` for check this property
+  - Some font families belongs to specific computers like `Mac`
+
+- <span style="color: Red;">External Style Sheet</span>
+
+  - There is three way to apply stylesheet on HTML
+  - `internal style sheet`, `external style sheet`, and `inline style sheet`
+  - Internal stylesheet is good if you have only one page
+  - It's more realistic to use external stylesheet
+  - In a real world developing a website it is possible that you use all three way for styling
+  - Create a separate file for your stylesheet `.css`
+  - Transfer your code to your new file
+  - Create a link tag in your head element
+  - Define true address for your link
+
+- <span style="color: Red;">Text Decoration</span>
+
+  - Talk about `text-decoration` property and `line-through`, `underline`, and `overline` values (`none`)
+  - Talk about italic style by `font-style` and creating three different paragraph and classes
+  - To make a word italic it's better to use HTML tags
+
+- <span style="color: Red;">Web Colors</span>
+
+  - T
