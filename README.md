@@ -286,7 +286,100 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Talk about `text-decoration` property and `line-through`, `underline`, and `overline` values (`none`)
   - Talk about italic style by `font-style` and creating three different paragraph and classes
   - To make a word italic it's better to use HTML tags
+  - Differences between `italic` and `oblique` are in fonts, browsers and combination
 
 - <span style="color: Red;">Web Colors</span>
 
-  - T
+  - There is three primary way to add colors
+  - `use 16 primary colors`, `use RGB values`, and `use hex-codes`
+  -
+  - Primary colors
+  - ![](Images/8.png)
+  -
+  - RGB colors
+  - ![](Images/9.png)
+  - Check this colors in windows paint
+  - Use `rgb(number for red, number for green, number for blue);` property
+  - It's better to use hex-code color code. It's more professional
+  - Use for ex: `#ff2456` format for apply color on your tags numbers in hex-code cover around 16 million different color `00..ff`
+
+- <span style="color: Red;">Inline Style Sheet</span>
+
+  - Use `style` property inside a tag
+  - Separate properties using `;`
+  - Only use this way when you have a rock solid tag that never change
+
+- <span style="color: Red;">More Font Size</span>
+
+  - Four way to apply size to texts `font-size:---`
+  - `px`, `%`, `em`, and `keywords`
+  - Define font size in `body` and use different `font-size` for `h1`, `h2`, and `p`
+  - `px` define size based of number of pixels
+  - `%` change font size based on inheritance and parent tag font size
+  - This is a relative unit of measures
+  - Calculate the new measure by calculator
+  - `em` do the same thing that percentage is doing
+  - By change the value in body you can change other tags without editing
+  - Keywords have size based on pixels
+
+- <span style="color: Red;">Line Hight Property</span>
+
+  - By using this property you can make your text more readable
+  - `line-hight:...;`
+  - Size rules are useable here
+
+- <span style="color: Red;">CSS Box Model</span>
+
+  - ![](Images/10.png)
+  - - Every elements in our HTML file have these boxes around them
+  - `Content`: Everything goes there like our text
+  - Show box using `background-color` property
+  - Define a `border` in three line and than one line
+  - `padding`: Is distance between content and border
+  - browser add a default padding and margin to elements
+  - `margin`: Is distance between border and other elements
+  - Check `margin` changes between two paragraph
+  - `padding-top`, `padding-bottom`, `padding-left`, and `padding-right`
+  - `margin-top`, `margin-bottom`, `margin-left`, and `margin-right`
+  - Even `body` tag is surrounded by Box model
+  - Bay adding temporary border you can check box around a element
+  - Set the body margin to `0` to check default margin which apply by the browsers
+  - Use Image tag in page to demonstrate Box model around it using class attribute
+  - HTML elements come in top-down order
+  - By setting `margin-left` and `margin-right` to `auto` our element become centralized
+  - Add border and background to our image
+  - We can combine our property values in in line by four value (`top`-`right`-`bottom`-`left`)
+  - Color of background applies on the padding
+  - Set margin to `0` and check other elements margin (between two paragraph)
+  - Set `body` tag margin to 0 ans show it by setting a border
+
+- <span style="color: Red;">Background Image Property</span>
+
+  - Use google and download claud pattern css
+  - `background-image:url(...);`
+  - We can use `url` for the source of image
+  - By using this property we can give background image to each tag that we want
+
+- <span style="color: Red;">The ID Attribute</span>
+
+  - Use `ID` attribute when you want to apply an individual style to a specific tag
+  - Use class attribute when you want to apply a style to a list of objects from same classes
+  - `ID` attribute has higher priority than `class` attribute
+
+- <span style="color: Red;">Text Align Property</span>
+
+  - `text-align:`center, right, left
+  - Apply it on headers
+  - It changes by the changing the page size
+
+- <span style="color: Red;">Border Property</span>
+
+  - Explain border property and its individual elements
+  - Talk about combination of all properties
+  - Check values for all properties
+  - Border width property keywords: `thin`, `medium`, `thick`, and `px`
+  - Use `border-radius` to curve the border
+  - This property doesn't work in some browsers
+  - You can add curves to the selected corners
+  - Check selected curves to by corner properties
+  - You can also apply other border properties to specific sides (`style`, `width`, `color`)
