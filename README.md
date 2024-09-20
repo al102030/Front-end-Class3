@@ -383,3 +383,53 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - You can add curves to the selected corners
   - Check selected curves to by corner properties
   - You can also apply other border properties to specific sides (`style`, `width`, `color`)
+
+- <span style="color: Red;">&lt;Div&gt; Element</span>
+
+  - This element is used more and more in related to CSS
+  - We use `div` to define logical sections in our webpage
+  - The `class` property can be placed in a tag or in a `div` tag which surrounded that tag
+  - Notice to inheritance and `body` tag properties when you use `div` to separate your pages
+
+- <span style="color: Red;">The &lt;SPAN&gt; Element</span>
+
+  - `SPAN` is similar to the `div` but operates on a small scale
+  - It can work inside a individual element like paragraph
+  - Explain it by using `highlight` class
+  - Divs work like container but SPAN work inside other elements
+
+- <span style="color: Red;">Reuse CSS</span>
+
+  - We can use only one CSS file for our all pages
+  - We need to only link new file to our CSS stylesheet
+
+- <span style="color: Red;">Special Effects</span>
+
+  - We use `pseudo classes` to add some special effects to our elements
+  - Use `:` to define a pseudo class
+  - It doesn't need to define anything in HTML file
+
+- <span style="color: Red;">Positioning Elements</span>
+
+  - By execute positioning on CSS you can put your element in a arbitrary location
+  - Elements are divided into two basic types: `Block` / `Inline`
+  - Block element is major structural element and it extends all the way from the left to the right side of the page
+  - Block element take all its share from left to right and it's a `natural flow`
+  - By adding `width` to a block element it looses its share
+  - By default All elements is in a block and there is a top-down priority for them
+  - Block element share in page is true for `nested` elements
+  - Images and spans are `Inline` elements
+  - Inline elements only stretches by the size of content
+  - By explain `Box model` on Block and Inline elements demonstrate the actual differences
+  - Notice Images take margin property all around them but Span takes it only in the left and right side
+  - Margin of two Inline elements are completely apply but between two block elements only one margin space take place
+  - Always <span style="color: Orange;">higher element's margin</span> apply between two block element
+  - We can convert a block to Inline and vice versa by using `Display` property
+  - Talk about two block and Inline elements' margin and centralize them
+
+- <span style="color: Red;">Floating an Element</span>
+
+  - By using floating element we can define a position for an element (define `width` and set float to `left`)
+  - By define float property we actually interrupt `natural flow` and put some space for next item in the list
+  - Use percentage (`50%`) to divide screen into two pieces
+  - Nested block elements stretch through all their parent free space
