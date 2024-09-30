@@ -591,3 +591,77 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Also you can add more color to your gradient
   - Add a percentage to a color gives the other color share based on it
   - Giving a 50% to each color create a straight line between them
+
+- <span style="color: Red;">Combine Opacity and Gradients</span>
+
+  - By using `rgba` parameter in linier-gradient we can mix gradient and opacity
+
+- <span style="color: Red;">Text Shadow</span>
+
+  - By using `text-shadow` property we can add a beautiful shadow to our text
+  - First and second option is vertical and horizontal shadow depth (They are usually the same) and the third option is the measure of blur of it
+  - We can and multiple shadow to our text by separating them with `,`
+  - By using `rgba` we can control our text shadow opacity
+
+- <span style="color: Red;">Box Shadow</span>
+
+  - By using `box-shadow` property we can create nice shadow for our elements
+  - Option for box-shadow is completely the same with text-shadow and it has one more option (`spread radius`)
+  - Boxes has another option called inner-shadow (`inset`)
+
+- <span style="color: Red;">CSS Grid</span>
+
+  - First of all create a dive as your CSS Grid container
+  - Fist step is setting your div display property to `grid`
+  - By using `grid-template-columns` we can create our grid and columns (`auto` option is a place holder for each one)
+  - `auto` option stretch your columns based on the size of the screen
+  - Grid gutters defined by `grid-gap` (It is a deprecated property)
+  - By using `grid-template-rows` we can create our grid rows and we can give specific size to all of them
+  -
+  - ![](Images/12.png)
+  -
+  - Create your first section in you container by creating a new `div`
+  - Now you need to specify `grid-column` and `grid-row`
+  - You don't need to put the stop line for first section
+  - To specify a `stop line` we can put a `slash(/)` after start line and than put stop line number (`Section10`)
+  - For a new row you need to define it in container-grid section
+  - For a real dynamic website which has unpredictable rows of grid we can use `grid-auto-rows`
+  - Define new section based on new auto rows property
+  - By using `repeat` function for `grid-template-column` as value, we can change the process of creating columns automatic
+  - First parameter is the minimum number of columns
+  - The second parameter (`1fr`) is for dividing section equally
+  - By adding two new column in new column definition show the new style
+  - To nest a grid inside another grid we need to define new container for new grid and put html elements inside a section
+  - To keep all sections in the same size we don't need specify row and column
+  - Padding for grid sections is different from gutters
+  - Test adding an image to grid section (define width and hight)
+
+- <span style="color: Red;">CSS FlexBox</span>
+
+  - `FlexBox` allows you to create a layout in <span style="color: #0099ff;">one dimension</span>
+  - `Grid` allows you to create a layout in <span style="color: #0099ff;">Two dimension</span>
+  - Using them separately and mixed help you to make flexible layout
+  - By changing `flex-direction` property you can change your FlexBox direction (default value for this property is `row`)
+  - `Order` property set to `0` in default mode
+
+  - By setting this property you can choose your desire order for your boxes
+  - You can set mines value for this property (like -1)
+  - - If you want to an item come first ever set its order property to a very big negative value like `-1000`
+  - `flex-grow` property define the size of the boxes and you need to define it for all of them
+  - By setting `flex-grow` to 1 for all boxes you divide the space between them evenly
+  - By using `Justify-content` property you can change the location of your boxes (check `flex-end`, `space-between`, `center`, `space-evenly`)
+  - By using `Justify-content` and `flex-direction` properties you can choose optional positions for your FlexBox
+  - `Justify-content` property doesn't work for a vertical Flexbox when set to `flex-end`
+  - `align-items` can change the position in another way and you can use them for a specific box (`align-self`)
+  - By using `flex-wrap` you can fix your boxes actual size
+  - Set `Justify-content` to `space-around` mixed with `wrap`
+  - `flex-shrink` property work like flex grow in a more flexible way
+  - It takes the space from one box and share it between other boxes
+  - Set all boxes width to 100% and check `flex-shrink`
+  - `flex-basis` is much better option for auto sizing (to size an image inside a box)
+  - By setting `flex-basis` when `flex-direction` set to <span style="color: lightgreen;">row</span>, it works against the `width`
+  - By setting `flex-basis` when `flex-direction` set to <span style="color: lightgreen;">column</span>, it works against the `hight`
+
+- <span style="color: Red;">Creating layout using CSS FlexBox</span>
+
+  - Use FlexBox properties to create a custom layout fully
