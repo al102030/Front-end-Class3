@@ -713,3 +713,73 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - By using classes in the form of `text-"color_name"` you can apply a primary color on your text
   - By using classes in the form of `bg-"color_name"` you can apply a primary color on your text background
   - To customize colors, you'll need to work with Bootstrap's `Sass` variables
+
+- <span style="color: Red;">Buttons</span>
+
+  - By using base `btn` class we can create a button in bootstrap and then style it
+  - By giving a class of `btn` to an anchor tag we can transform it to a button
+  - By using words like `lg`, and `sm` you can change your button size
+  - We can give a custom size to our button by giving it a style in our custom CSS
+  - `btn-outline-"color name"` can create nice bootstrap buttons
+  - By using `btn-group` class we can style our buttons in a nice group
+  - Put your button group inside a `div`
+
+- <span style="color: Red;">Utility Classes (Margin and Padding)</span>
+
+  - By using classes that starts with `m-` or `p-` follows by a range of numbers `1-5` we can apply margin and padding to elements. like `m-3`
+  - We can apply margin in one direction like `top-down` by add `y` to its class like `my-1`
+  - We can apply padding in one direction like `left-right` by add `x` to its class like `px-1`
+  - By add `t`, `b`, `s`, and `e` (In order top, bottom, left, and right) to `m` or `p` classes we can apply margin or padding in on side
+
+- <span style="color: Red;">Utility Classes (Border)</span>
+
+  - Class `border` can apply a gray border to our elements
+  - By add `top`,`bottom`,`start`, and `end` we can have border in a one side
+  - Also we can colorize our border and make it thicker or thinner in the range of `1-5`
+  - `rounded` class can curve your elements border
+  - `rounded-pill` class can curve your elements border more and like cycle
+
+- <span style="color: Red;">Utility Classes (Shadow)</span>
+
+  - `shadow` class can give a nice stylish shadow to your element
+  - `sm` and `lg` can change your shadow size
+
+- <span style="color: Red;">Utility Classes (Font Wight and Style)</span>
+
+  - By `fw` and `fst` classes we can give optional wight and style to our texts font
+  - Look at the utility classes in Bootstrap site
+
+- <span style="color: Red;">Containers</span>
+
+  - Talk about Breakpoints and different containers
+  - ![](images/14.png)
+  - Different containers show different behavior in specific breakpoints
+  - A `normal` container change content arrangement in breakpoints
+  - A `fluid` container keep content arrangement fixed (100% of width)
+
+- <span style="color: Red;">The Grid Layout</span>
+
+  - The Grid layout provide structure
+  - Bootstrap uses grid structure to form your website structure
+  - This structure is very responsive and easy to maintain
+  - Bootstrap system allows you to have up to 12 columns
+  - First create your `container` class. You must wrap all of your grids in this container (It's pre-defined class)
+  - You can use `two types` of classes that you can use here(`container`, `container-fluid`)
+  - Add your Bootstrap `row` to your container class (It's pre-defined class)
+  - Add your Bootstrap `col` to your container class (It's pre-defined class)
+  - Using `col` without any other option divide space between columns
+  - Bootstrap has four major classes that you can call
+    - `xs` for Phones
+    - `sm` for Tablets
+    - `md` for Desktops
+    - `lg` for larger Desktops
+  - Typically we use `md` class in our designs
+  - All these sizes have another numeral size between `1-12`
+  - Create 6 columns for testing
+  - You can add your own stylesheet to bootstrap classes
+  - Put your stylesheet link after Bootstrap link to give it higher priority
+  - By adding a `new div` we can apply our own customized classes on columns
+  - Also we can use `id` to do that
+  - Define separate classes for each column and resize your web browser
+  - We can justify content in row class div (`Justify-content-{start, end, center, between, ...}`)
+  -
