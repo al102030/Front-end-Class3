@@ -782,4 +782,24 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Also we can use `id` to do that
   - Define separate classes for each column and resize your web browser
   - We can justify content in row class div (`Justify-content-{start, end, center, between, ...}`)
+
+- <span style="color: Red;">A Sample Bootstrap Page</span>
+
+  - Create all initial files and codes in a separate folder
+  - Divide your body in different sections and comment it
+  - First we create a introduction section
+  - Do everything based On codes in Final_project files
+  - Create two section, one for text and one for image
+  - By placing image in second column and give a `img-fluid` class to it our image set in its right place
+  - Look at the justification of text in column one
+  - `align-items-center` class make centralized text vertically
+  - Talk about `Navbar` in Bootstrap website
+  - For creating a nav bar we should use navbar tag
+  - Navbar container is `container-xl` and place your website brand inside navbar tag
+  - Add a toggler button using Bootstrap
+  - `aria` attributes are for benefits of screen readers
+  - Copy codes from code snippets and talk about all classes and attributes
+  - Change color in row by using bootstrap classes
+  - by `fixed-bottom` class we can place navbar at bottom of page
+  - Talk about cards and check it inside the BT website
   -
