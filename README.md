@@ -802,4 +802,20 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Change color in row by using bootstrap classes
   - by `fixed-bottom` class we can place navbar at bottom of page
   - Talk about cards and check it inside the BT website
+  - For using cards we need a div with `card` class and inside it we should place several tags with these classes:
+    - `card-body` (div)
+    - `card-title` (h4)
+    - `card-subtitle` (p)
+    - `card-text` (p)
+    - `card-header` (div)
+  - By using `g-{1-5}` class you can create gap between cards
+  - To create a accordion we should create a div with class `accrodion`
+  - For each one of accordion items we need divs with class `accordion-item`
+  - For title we can use `accordion-header` class
+  - A div with class `accordion-collapse` can be a part of our accordion to be collapsed with a button
+  - Class `accordion-body` is used to show the content of each accordion slide
+  - For making a list of reviews we can use `list-group` class and `list-group-item` for each of items
+  - Go to the `icons.getbootstrap.com` to use Bootstrap numerous icons
+  - We can download all icons or use the by `CDN`
+  - Add Bootstrap icons link into your project head
   -
