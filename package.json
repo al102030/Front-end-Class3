@@ -1,0 +1,14 @@
+{
+  "name": "front-end-class3",
+  "version": "1.0.0",
+  "description": "Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and Bootstrap)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

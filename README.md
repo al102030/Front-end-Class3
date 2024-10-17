@@ -818,4 +818,9 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Go to the `icons.getbootstrap.com` to use Bootstrap numerous icons
   - We can download all icons or use the by `CDN`
   - Add Bootstrap icons link into your project head
+  - To create a floating label create a div with class `form-floating` an place your textarea an label inside it
+  - To merge a label with a control we can use a `input-group` class
+  - To put a tooltip on your elements in the page use a JavaScript `tt` (it's an optional name)
+  - Also you need some JS code inside a script tag at the bottom of the page
+  - To create a modal for your website you need create a section for it separately and define modal under it
   -
